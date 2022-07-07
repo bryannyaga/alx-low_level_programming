@@ -16,7 +16,7 @@ for (k = j; k < 58; k++)
 if (i == j || j == k || i == k)
 {
 continue;
-{
+}
 putchar(i);
 putchar(j);
 putchar(k);
@@ -34,6 +34,4 @@ putchar(' ');
 }
 putchar ('\n');
 return  (0);
-}
-}
 }
